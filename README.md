@@ -60,8 +60,8 @@ $ gleis app exec "python manage.py migrate"
 The sample app will be online in a few seconds and reachable through the secure URL mentioned when you created the Gleis app with the above command.
 
 ## Remarks
-In this sample app, Django is configured to:
-* use [SQLite](https://sqlite.org) as default database when run locally
-* use [PostgreSQL](https://www.postgresql.org/) as database when deployed on Gleis
-* use [DJ-Database-URL](https://github.com/kennethreitz/dj-database-url) to automatically read the DATABASE_URL config var on Gleis in order to access the PostgreSQL database
-* use [WhiteNoise](http://whitenoise.evans.io/en/stable/) for serving static files directly from the web server
+In this sample app, Django is configured to use:
+* [SQLite](https://sqlite.org) as default database when run locally
+* [PostgreSQL](https://www.postgresql.org/) as database when deployed on Gleis
+* [DJ-Database-URL](https://github.com/kennethreitz/dj-database-url) to automatically read the DATABASE_URL config var on Gleis to connect to the PostgreSQL database
+* [WhiteNoise](http://whitenoise.evans.io/en/stable/) for serving static files directly from the web server
