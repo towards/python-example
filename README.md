@@ -1,10 +1,10 @@
 # Python example app for Gleis PaaS
 
-This is a Python example app made for the Gleis PaaS built using the [Django](https://www.djangoproject.com/) web framework.
+This is a Python example app made for the [Gleis PaaS](https://gleis.cloud) built using the [Django](https://www.djangoproject.com/) web framework.
 
 ## Prerequisites
 
-In order to run this sample app locally you will need [Python](https://www.python.org/) to be installed on your computer and an account on the Gleis PaaS as well as the Gleis Ruby gem to be able to deploy it.
+In order to run this sample app locally you will need [Python](https://www.python.org/) to be installed on your computer and an [account on the Gleis PaaS](https://gleis.cloud/beta) as well as the [Gleis CLI Ruby gem](https://rubygems.org/gems/gleis) to be able to deploy it.
 
 ## Try out the sample app locally
 
